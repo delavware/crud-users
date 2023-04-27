@@ -98,6 +98,8 @@ function App() {
   useEffect (() => {
     getAllUsers()
   }, [])
+
+
   return (
     <>
     <Modal errors={errors} isUserEditable={isUserEditable} setisUserEditable={setisUserEditable} submit={submit} register={register} handleSubmit={handleSubmit} isShownForm={isShownForm} setIsShownForm={setIsShownForm} />
